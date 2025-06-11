@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-06-11T19:09:10.475094+00:00",
+  "test_configuration": {
+    "network": "injective-1",
+    "markets_tested": 10
+  },
+  "results": [
+    {
+      "market_count": 1,
+      "messages_received": 0,
+      "test_duration": 20.001139402389526,
+      "messages_per_second": 0.0,
+      "cpu_usage_percent": 0.1,
+      "memory_usage_mb": 72.546875,
+      "connection_setup_time": 4.100799560546875e-05,
+      "success_rate": 100.0,
+      "errors_count": 0,
+      "peak_memory_mb": 71.21875,
+      "average_message_size": 0
+    },
+    {
+      "market_count": 2,
+      "messages_received": 8,
+      "test_duration": 20.001078128814697,
+      "messages_per_second": 0.3999784385860051,
+      "cpu_usage_percent": 0.3,
+      "memory_usage_mb": 74.78125,
+      "connection_setup_time": 4.887580871582031e-05,
+      "success_rate": 100.0,
+      "errors_count": 0,
+      "peak_memory_mb": 74.78125,
+      "average_message_size": 713.75
+    },
+    {
+      "market_count": 3,
+      "messages_received": 21,
+      "test_duration": 20.00106978416443,
+      "messages_per_second": 1.049943839335357,
+      "cpu_usage_percent": 0.55,
+      "memory_usage_mb": 75.78125,
+      "connection_setup_time": 5.698204040527344e-05,
+      "success_rate": 100.0,
+      "errors_count": 0,
+      "peak_memory_mb": 75.78125,
+      "average_message_size": 714.2857142857143
+    },
+    {
+      "market_count": 5,
+      "messages_received": 16,
+      "test_duration": 20.001081943511963,
+      "messages_per_second": 0.7999567246005984,
+      "cpu_usage_percent": 0.5,
+      "memory_usage_mb": 76.09375,
+      "connection_setup_time": 7.200241088867188e-05,
+      "success_rate": 100.0,
+      "errors_count": 0,
+      "peak_memory_mb": 76.03125,
+      "average_message_size": 3359.875
+    },
+    {
+      "market_count": 10,
+      "messages_received": 12,
+      "test_duration": 20.001039028167725,
+      "messages_per_second": 0.5999688307742534,
+      "cpu_usage_percent": 0.4,
+      "memory_usage_mb": 76.96875,
+      "connection_setup_time": 0.0001049041748046875,
+      "success_rate": 100.0,
+      "errors_count": 0,
+      "peak_memory_mb": 76.953125,
+      "average_message_size": 863.6666666666666
+    },
+    {
+      "market_count": 15,
+      "messages_received": 29,
+      "test_duration": 20.00028896331787,
+      "messages_per_second": 1.4499790504621368,
+      "cpu_usage_percent": 0.75,
+      "memory_usage_mb": 78.5,
+      "connection_setup_time": 5.5789947509765625e-05,
+      "success_rate": 100.0,
+      "errors_count": 0,
+      "peak_memory_mb": 78.34375,
+      "average_message_size": 710.3448275862069
+    },
+    {
+      "market_count": 20,
+      "messages_received": 27,
+      "test_duration": 20.00023603439331,
+      "messages_per_second": 1.349984067866478,
+      "cpu_usage_percent": 0.8500000000000001,
+      "memory_usage_mb": 79.9375,
+      "connection_setup_time": 8.821487426757812e-05,
+      "success_rate": 100.0,
+      "errors_count": 0,
+      "peak_memory_mb": 79.9375,
+      "average_message_size": 650.8888888888889
+    },
+    {
+      "market_count": 25,
+      "messages_received": 30,
+      "test_duration": 20.0010769367218,
+      "messages_per_second": 1.4999192340948533,
+      "cpu_usage_percent": 1.0,
+      "memory_usage_mb": 82.109375,
+      "connection_setup_time": 0.00010919570922851562,
+      "success_rate": 100.0,
+      "errors_count": 0,
+      "peak_memory_mb": 82.09375,
+      "average_message_size": 2166.766666666667
+    }
+  ],
+  "analysis": {
+    "total_configurations_tested": 8,
+    "optimal_market_count": 15,
+    "max_throughput_config": {
+      "market_count": 25,
+      "messages_per_second": 1.4999192340948533,
+      "success_rate": 100.0
+    },
+    "max_stable_markets": 25,
+    "performance_trends": {
+      "throughput_per_market": [
+        0.0,
+        0.19998921929300256,
+        0.34998127977845234,
+        0.15999134492011968,
+        0.059996883077425345,
+        0.09666527003080912,
+        0.06749920339332391,
+        0.05999676936379413
+      ],
+      "memory_scaling": [
+        72.546875,
+        74.78125,
+        75.78125,
+        76.09375,
+        76.96875,
+        78.5,
+        79.9375,
+        82.109375
+      ],
+      "cpu_scaling": [
+        0.1,
+        0.3,
+        0.55,
+        0.5,
+        0.4,
+        0.75,
+        0.8500000000000001,
+        1.0
+      ],
+      "success_rates": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ]
+    },
+    "recommendations": [
+      "\ud83c\udfaf Recommended market count: 15 for optimal efficiency"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+# Injective Sniper Bot - Requirements
+
+## Core Dependencies
+pydantic>=2.5.0
+pydantic[email]>=2.5.0
+injective-py>=1.6.0
+asyncio-mqtt>=0.16.0
+rich>=13.7.0
+numpy>=1.24.0
+pandas>=2.1.0
+websockets>=12.0
+
+## Testing Dependencies
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.12.0
+pytest-cov>=4.1.0
+pytest-benchmark>=4.0.0
+
+## Code Quality
+mypy>=1.7.0
+black>=23.11.0
+isort>=5.12.0
+flake8>=6.1.0
+pre-commit>=3.5.0
+
+## Performance Monitoring
+memory-profiler>=0.61.0
+psutil>=5.9.0
+line-profiler>=4.1.0
+
+## Optional: Advanced Performance
+numba>=0.58.0  # JIT compilation for critical paths
+cython>=3.0.0  # C extensions if needed

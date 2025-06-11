@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-06-11T22:09:07.693482",
+  "source": "known_markets",
+  "markets": [
+    {
+      "ticker": "BTC/USDT PERP",
+      "market_id": "0x4ca0f92fc28be0c9761326016b5a1a2177dd6375558365116b5bdda9abc229ce",
+      "description": "Bitcoin Perpetual vs USDT",
+      "priority": 1
+    },
+    {
+      "ticker": "ETH/USDT PERP",
+      "market_id": "0x5e775190c20c3e11bbced3d8b0a1c1e8c6c9f3e2fb6b7a7b4fd2e65cd6a79c49",
+      "description": "Ethereum Perpetual vs USDT",
+      "priority": 2
+    },
+    {
+      "ticker": "INJ/USDT PERP",
+      "market_id": "0x6a0b5d4e1a3a3e3b7f7e1b8c2f5e2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f",
+      "description": "Injective Token Perpetual vs USDT",
+      "priority": 3
+    }
+  ],
+  "testing_recommendations": {
+    "btc_usdt_perp": "0x4ca0f92fc28be0c9761326016b5a1a2177dd6375558365116b5bdda9abc229ce",
+    "eth_usdt_perp": "0x5e775190c20c3e11bbced3d8b0a1c1e8c6c9f3e2fb6b7a7b4fd2e65cd6a79c49",
+    "top_3_for_testing": [
+      "0x4ca0f92fc28be0c9761326016b5a1a2177dd6375558365116b5bdda9abc229ce",
+      "0x5e775190c20c3e11bbced3d8b0a1c1e8c6c9f3e2fb6b7a7b4fd2e65cd6a79c49",
+      "0x6a0b5d4e1a3a3e3b7f7e1b8c2f5e2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f"
+    ]
+  }
+}
